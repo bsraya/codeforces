@@ -9,8 +9,8 @@ int main(int argc, char const *argv[])
     int weight = 0;
     cin >> weight;
     if(weight <= 2 or (weight%2 != 0))
-        cout << "NO";
+        cout << "NO\n";
     else 
-        cout << "YES";
+        cout << "YES\n";
     return 0;
 }
